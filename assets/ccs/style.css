@@ -1,0 +1,19 @@
+/* selector general */
+* {
+    margin: 5px;
+    border: solid violet;
+    padding: 20px;
+}
+
+img {
+    width: 200px;
+}
+
+/* o float somente funciona no inline, qualquer outro leva maior prioridade */
+ul {
+    float: right;
+}
+
+header {
+    display: inline-block;
+}
